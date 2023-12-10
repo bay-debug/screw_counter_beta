@@ -36,7 +36,7 @@ def get_yolo5(model_type='s'):
     torch model
         torch-модель типа `<class 'models.common.autoShape'>`
     '''
-    return torch.hub.load('ultralytics/yolov5', 
+    return torch.hub.load('Rifqifdl/yolov5', 
                           'yolov5{}'.format(model_type), 
                           pretrained=True
                           )
